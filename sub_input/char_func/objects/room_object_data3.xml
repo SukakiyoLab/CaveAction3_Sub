@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <name>
+        Room3
+    </name>
+    <type>
+        Normal
+    </type>
+    <transform>
+        <position><x>160.0</x><y>-160.0</y><z>0.0</z></position>
+        <rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation>
+        <scale><x>1.0</x><y>1.0</y><z>1.0</z></scale>
+    </transform>
+    <component>
+        <tilemap>
+            <tilemap_path>./resource/imgs/tilemap1.png</tilemap_path>
+            <tilemap_init>tilemap_data_3_1</tilemap_init>
+            <image_layer>0</image_layer>
+            <image_alpha>255</image_alpha>
+            <offset><x>0</x><y>0</y></offset>
+        </tilemap>
+    </component>
+    <component>
+        <tilemap>
+            <tilemap_path>./resource/imgs/tilemap1.png</tilemap_path>
+            <tilemap_init>tilemap_data_3_2</tilemap_init>
+            <image_layer>3</image_layer>
+            <image_alpha>255</image_alpha>
+            <offset><x>0</x><y>-64</y></offset>
+        </tilemap>
+    </component>
+    <component>
+        <tilemap>
+            <tilemap_path>./resource/imgs/tilemap1.png</tilemap_path>
+            <tilemap_init>tilemap_data_3_3</tilemap_init>
+            <image_layer>1</image_layer>
+            <image_alpha>255</image_alpha>
+            <offset><x>0</x><y>-64</y></offset>
+        </tilemap>
+    </component>
+    <component>
+        <tile_collider2d>
+            <layer>0</layer>
+            <magnitude>4500</magnitude>
+            <collision>1</collision>
+            <width>32</width>
+            <tilemap_collider_init>tilemap_data_3_collider</tilemap_collider_init>
+            <offset><x>0</x><y>0</y></offset>
+            <rigidbody_id>0</rigidbody_id>
+        </tile_collider2d>
+    </component>
+    <other_object_components>
+        
+    </other_object_components>
+</root>

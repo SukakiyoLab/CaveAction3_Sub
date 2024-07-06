@@ -11,8 +11,8 @@ def csv_to_cpp(r_path : str, w_path : str,  func_name : str):
         w_f.write("#pragma once\n")
         w_f.write("#include <vector>\n")
         w_f.write("\n")
-        w_f.write("std::vector<std::vector<unsigned short>> {}() {{\n".format(func_name))
-        w_f.write("    return std::vector<std::vector<unsigned short>> {{\n".format())
+        w_f.write("inline std::vector<std::vector<unsigned short>>* {}() {{\n".format(func_name))
+        w_f.write("    return new std::vector<std::vector<unsigned short>> {{\n".format())
 
         for row in csvreader:
           line = "{{".format()

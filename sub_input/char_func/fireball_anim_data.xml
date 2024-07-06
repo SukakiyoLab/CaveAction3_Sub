@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<data>
+    <animation>
+        <frame>
+            <filename>./resource/imgs/ball/fire/fire1.png</filename>
+            <duration>150</duration>
+        </frame>
+        <frame>
+            <filename>./resource/imgs/ball/fire/fire2.png</filename>
+            <duration>150</duration>
+        </frame>
+        <frame>
+            <filename>./resource/imgs/ball/fire/fire3.png</filename>
+            <duration>150</duration>
+        </frame>
+        <frame>
+            <filename>./resource/imgs/ball/fire/fire4.png</filename>
+            <duration>150</duration>
+        </frame>
+    </animation>
+</data>

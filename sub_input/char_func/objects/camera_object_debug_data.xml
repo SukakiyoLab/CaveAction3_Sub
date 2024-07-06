@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+    <name>
+        debug_camera
+    </name>
+    <type>
+        Normal
+    </type>
+    <transform>
+        <position><x>0.0</x><y>0.0</y><z>0.0</z></position>
+        <rotation><x>0.0</x><y>0.0</y><z>0.0</z></rotation>
+        <scale><x>1.0</x><y>1.0</y><z>1.0</z></scale>
+    </transform>
+    <component>
+        <view_camera>
+            <view_port_center>
+                <x>640.0</x><y>480.0</y><z>0.0</z>
+            </view_port_center>
+            <width>960</width>
+            <height>720</height>
+            <other_object_name>player</other_object_name>
+            <other_transform_id>0</other_transform_id>
+        </view_camera>
+    </component>
+    <other_object_components>
+        <object>
+            player
+            <component>CAT_Transform</component>
+            <component_id>0</component_id>
+        </object>
+    </other_object_components>
+</root>
